@@ -9,6 +9,11 @@ public class CadastroPessoas {
         System.out.println(nome + " adicionado(a) com sucesso!");
     }
 
+    public void excluir(String nome) {
+        pessoas.remove(nome);
+        System.out.println(nome + " excluído(a) com sucesso!");
+    }
+
     public static void main(String[] args) {
         CadastroPessoas cadastro = new CadastroPessoas();
 
